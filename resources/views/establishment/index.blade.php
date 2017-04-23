@@ -13,7 +13,7 @@
 
   <div class="album text-muted">
       <div class="container">
-
+      
         @foreach($establishments->chunk(3) as $establishments)
         <div class="row course-set courses__row">
           

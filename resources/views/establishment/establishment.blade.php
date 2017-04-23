@@ -1,4 +1,3 @@
-
 <div class="establishment">
 
 	<h2 class="establishment-name">
