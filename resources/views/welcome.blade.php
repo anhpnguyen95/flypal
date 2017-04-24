@@ -2,6 +2,8 @@
 
 @section('content')
 
-    <h1>FlyPal</h1>
+<h2> Welcome to FlyPal </h2>
+
+<a href="/airports">Check in</a>
     
 @stop
