@@ -7,9 +7,10 @@
 
 	<h1>{{ $establishment-> name }}</h1>
 
-		<p>
+			<p>
 
 				{{ $establishment -> description}}
+
 			</p>
 
 			<p>
@@ -21,6 +22,7 @@
 			<p>
 
 				{{ $establishment -> location}}
+				
 			</p>
 
 </div>

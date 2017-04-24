@@ -4,7 +4,7 @@
 
 		<a href="/airports/{{ $airport -> airport_id }}">
 
-			{{ $establishment->airport_name}}
+			{{ $airport->airport_name}}
 
 		</a>
 	</h2>

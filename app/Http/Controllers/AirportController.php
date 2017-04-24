@@ -17,4 +17,15 @@ class AirportController extends Controller
 	    return view('airports.index', compact('airports'));
 
 	}
+
+
+	public function show($airport_id)
+
+	{
+
+	    $airport = Airports::find($airport_id);
+
+	    return view('airports.show', compact('airport'));
+
+	}
 }
