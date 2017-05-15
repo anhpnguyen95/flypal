@@ -19,10 +19,20 @@
 
 			</p>
 
+			
+		
+			
+			
 			<p>
 
-				Check flight
+				
+				<a href="/status" >Check flight</a>
+				
+				
 			</p>
+			
+			
+					<a href="/map" >Map</a>
 
 </div>
 

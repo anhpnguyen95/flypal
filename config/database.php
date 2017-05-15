@@ -52,6 +52,26 @@ return [
             'prefix' => '',
             'strict' => true,
             'engine' => null,
+			
+			
+			    'read' => [
+        'host' =>env('DB_HOST', '127.0.0.1')
+    ],
+    'write' => [
+        'host' => env('DB_HOST', '127.0.0.1')
+    ],
+    'driver'    => 'mysql',
+    'database'  => 'database',
+    'username'  => 'root',
+    'password'  => '',
+    'charset' => 'utf8mb4',
+    'collation' => 'utf8mb4_unicode_ci',
+    'prefix'    => '',
+	
+	
+	
+	
+	
         ],
 
         'pgsql' => [
